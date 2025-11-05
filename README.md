@@ -1,12 +1,12 @@
 # Faleproxy
 
-A Node.js web application that fetches a URL, replaces every instance of "Yale" with "Fale" in the document, and displays the modified content.
+A Node.js web application that fetches a URL, replaces every instance of "Yale" with "botU" in the document, and displays the modified content.
 
 ## Features
 
 - Simple and intuitive user interface
 - Fetches web content from any URL
-- Replaces all instances of "Yale" with "Fale" (case-insensitive)
+- Replaces all instances of "Yale" with "botU" (case-insensitive)
 - Displays the modified content in an iframe
 - Shows original URL and page title in an info bar
 
@@ -30,7 +30,7 @@ npm start
 
 2. Open a browser and go to `http://localhost:3001`
 3. Enter a URL in the input field (e.g., https://www.yale.edu)
-4. Click "Fetch & Replace" to see the modified content
+4. Click "Fetch & Replace" to see the modified content with Yale replaced by botU
 
 ## Development
 
@@ -44,7 +44,7 @@ npm run dev
 
 The application includes a comprehensive test suite:
 
-- **Unit tests**: Test the Yale-to-Fale replacement logic
+- **Unit tests**: Test the Yale-to-botU replacement logic
 - **API tests**: Test the application endpoints
 - **Integration tests**: Test the entire application workflow
 
